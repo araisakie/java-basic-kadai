@@ -10,9 +10,9 @@ public class KatoExec_Chapter18 {
 		KatoHanako_Chapter18 hanako = new KatoHanako_Chapter18();
 		
 		// setGivenNameメソッドを実行する
-		taro.givenName = "太郎";
-		ichiro.givenName = "一郎";
-		hanako.givenName = "花子";
+		taro.setGivenName();
+		ichiro.setGivenName();
+		hanako.setGivenName();
 		
 		// eachIntroduceメソッドを実行する
 		taro.execIntroduce(taro.givenName);

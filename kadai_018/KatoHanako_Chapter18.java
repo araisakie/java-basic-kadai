@@ -4,8 +4,8 @@ public class KatoHanako_Chapter18 extends Kato_Chapter18 {
 
 	String givenName = "";
 
-	public void setGivenName(String givenName) {
-		this.givenName = givenName;
+	public void setGivenName() {
+		givenName = "花子";
 	}
 
 	public void eachIntroduce() {

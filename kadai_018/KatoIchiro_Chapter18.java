@@ -4,8 +4,8 @@ public class KatoIchiro_Chapter18 extends Kato_Chapter18 {
 
 	String givenName = "";
 
-	public void setGivenName(String givenName) {
-		this.givenName = givenName;
+	public void setGivenName() {
+		givenName = "一郎";
 	}
 	
 	public void eachIntroduce() {
